@@ -5,6 +5,7 @@ import RideBooking from './root-components/RideBooking.vue';
 import DownloadSection from "./root-components/DownloadSection.vue";
 import WhyCallCabSection from "./root-components/WhyCallCabSection.vue";
 import ServicesSection from "./root-components/ServicesSection.vue";
+import MovingPoeple from "./root-components/MovingPoeple.vue";
 </script>
 
 <template>
@@ -50,9 +51,9 @@ import ServicesSection from "./root-components/ServicesSection.vue";
       <WhyCallCabSection />
     </div>
     <!-- TODO the Moving Section -->
-     <!-- <div class="p-10 flex justify-center">
-      
-     </div> -->
+     <div class=" flex justify-center">
+      <MovingPoeple/>
+     </div> 
     <div class="p-10 flex justify-center">
       <ServicesSection />
     </div>
