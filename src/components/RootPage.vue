@@ -6,6 +6,9 @@ import DownloadSection from "./root-components/DownloadSection.vue";
 import WhyCallCabSection from "./root-components/WhyCallCabSection.vue";
 import ServicesSection from "./root-components/ServicesSection.vue";
 import MovingPoeple from "./root-components/MovingPoeple.vue";
+import ContactUs from "./root-components/ContactUs.vue";
+import Footer from "./root-components/Footer.vue";
+import DownloadTheAppNow from "./root-components/DownloadTheAppNow.vue";
 </script>
 
 <template>
@@ -56,6 +59,15 @@ import MovingPoeple from "./root-components/MovingPoeple.vue";
      </div> 
     <div class="p-10 flex justify-center">
       <ServicesSection />
+    </div>
+    <div class="flex justify-center">
+      <DownloadTheAppNow />
+    </div>
+    <div class=" ml-4 flex justify-center">
+      <ContactUs  />
+    </div>
+    <div class=" flex justify-center">
+      <Footer  />
     </div>
   </div>
 </template>
