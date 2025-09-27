@@ -1,22 +1,61 @@
 <script setup>
 import Button from '../ui/button/Button.vue';
-
-
 </script>
 
 <template>
-<section class="grid grid-cols-6 w-full bg-[#FFC700] rounded-lg h-[400px] p-4">
-    <div class="col-span-2 relative">
-        <img src="/src/assets/images/bg-download.png" alt="" class="absolute opacity-20">
-        <img src="/src/assets/images/big-mobile.png" alt="" class="absolute">
+  <section
+    class="grid grid-cols-1 lg:grid-cols-6 w-full bg-[#FFC700] rounded-lg p-6 sm:p-8 lg:h-[400px] relative"
+  >
+    <!-- Left Image Column -->
+    <div class="lg:col-span-2 relative flex justify-center items-end h-[450px] lg:h-[450px]">
+      <img
+        src="/src/assets/images/bg-download.png"
+        alt=""
+        class="absolute inset-0 w-full h-full object-cover opacity-20 z-0"
+      />
+      <img
+        src="/src/assets/images/big-mobile.png"
+        alt=""
+        class="relative z-10 w-[200px] sm:w-[250px] md:w-[300px] lg:w-[350px] bottom-[30px]"
+      />
     </div>
-    <div class="col-span-4 ">
-        <h1 class="text-[50px] font-bold text-white">Download <br><span class="text-[#272530]">The App Now</span></h1>
-        <p class="text-[18px]">With our cab service, you’ll never have to <br> worry about delays or hidden costs.</p>
-        <Button class="bg-[#272530] mt-8 p-6 hover:bg-[#272530] text-white rounded-full"> download </Button>
-        <Button class="bg-[#272530] mt-8 p-6 hover:bg-[#272530] text-white rounded-full"> Download</Button>
-    </div>
-</section>
 
+    <!-- Right Text Column -->
+    <div class="lg:col-span-4 flex flex-col justify-center z-10 mt-6 lg:mt-0">
+      <h1 class="text-3xl sm:text-4xl lg:text-[50px] font-bold text-white leading-tight">
+        Download <br /><span class="text-[#272530]">The App Now</span>
+      </h1>
+      <p class="text-base sm:text-lg mt-2 text-[#272530]">
+        With our cab service, you’ll never have to <br class="hidden sm:block" />
+        worry about delays or hidden costs.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-2 mt-6 flex-wrap">
+        <Button
+          class="bg-[#272530] py-4 px-6 hover:bg-[#272530] text-white rounded-full w-full sm:w-auto"
+        >
+          <div class="flex gap-2 items-center">
+            <img src="/src/assets/images/ios.png" class="size-5" alt="" />
+            <div class="flex flex-col text-left">
+              <p class="opacity-65 text-sm leading-tight">Download on the</p>
+              <p>App Store</p>
+            </div>
+          </div>
+        </Button>
+
+        <Button
+          class="bg-[#272530] py-4 px-6 hover:bg-[#272530] text-white rounded-full w-full sm:w-auto"
+        >
+          <div class="flex gap-2 items-center">
+            <img src="/src/assets/images/android.png" class="size-5" alt="" />
+            <div class="flex flex-col text-left">
+              <p class="opacity-65 text-sm leading-tight">Download on the</p>
+              <p>Google Play</p>
+            </div>
+          </div>
+        </Button>
+      </div>
+    </div>
+  </section>
 </template>
-

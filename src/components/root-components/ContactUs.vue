@@ -109,7 +109,7 @@ function submit() {
       </div>
 
       <!-- Right: Car visual -->
-      <div class="relative">
+      <div class="relative hidden lg:block">
         <img
           src="/src/assets/images/half-Taxi.png"
           alt="Yellow car"

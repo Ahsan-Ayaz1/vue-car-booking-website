@@ -24,13 +24,7 @@ const selectCity = ref([
 
 <template>
     <div>
-        <div class="flex justify-between items-center text-[#272530] font-bold text-sm bg-[#FFD231] px-10 py-6">
-            <p>WHO WE ARE</p>
-            <p>WHY CALL CAB</p>
-            <p>ABOUT</p>
-            <p>CONTACT</p>
-            <p class="border rounded-full border-black px-3 py-2">JOIN US NOW!</p>
-        </div>
+        <slot name="navItem"/>
         <div class="flex flex-col items-center gap-2 mt-4 justify-center text-[#272530] p-2">
             <h1 class="text-4xl font-bold">Book Your Ride Instantly !</h1>
             <Stepper class="flex w-1/2 items-start gap-2">
@@ -76,10 +70,10 @@ const selectCity = ref([
                 </div>
             </div>
             <div class="w-full p-2">
-                <BaseInput id="email" type="email" placeholder="Enter your Pich up Location" label="Pick up Location" />
+                <BaseInput id="pick-up-location" type="text" placeholder="Enter your Pich up Location" label="Pick up Location" />
             </div>
             <div class="w-full p-2">
-                <BaseInput id="email" type="email" placeholder="Enter your Drop of Location" label="Drop of Location" />
+                <BaseInput id="pick-up-location" type="text" placeholder="Enter your Drop of Location" label="Drop of Location" />
             </div>
         </div>
         <div class="flex justify-end my-4 gap-2 px-10">
