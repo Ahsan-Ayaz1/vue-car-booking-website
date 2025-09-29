@@ -1,5 +1,5 @@
 <script setup>
-import { Plus } from "lucide-vue-next"
+import { Plus, Phone } from "lucide-vue-next"
 import LogoSvg from './icons/LogoSvg.vue';
 import RideBooking from './root-components/RideBooking.vue';
 import DownloadSection from "./root-components/DownloadSection.vue";
@@ -22,7 +22,10 @@ const handleScrollToSection = (sectionId) => {
 
 <template>
   <div>
-    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pr-4 md:pr-0">
+    <div class="fixed bottom-6 right-6 z-50 cursor-pointer bg-[#FFD231] p-3 rounded-full transition-transform duration-300 transform hover:scale-110">
+      <Phone />
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:pr-0">
       <div class="col-span-1 md:col-span-2 px-6">
         <LogoSvg />
         <div class="md:pl-10 mt-6 md:mt-10">
@@ -49,7 +52,7 @@ const handleScrollToSection = (sectionId) => {
             </div>
           </div>
 
-          <div class="-mr-10 z-30 relative overflow-visible mt-6 hidden lg:block">
+          <div class="-mr-2 xl:-mr-10 z-30 relative overflow-visible mt-6 hidden lg:block">
             <img src="/src/assets/images/ride-call-cab.png" alt="" class="w-full max-w-full h-auto" />
           </div>
         </div>
@@ -96,7 +99,7 @@ const handleScrollToSection = (sectionId) => {
     </div>
 
     <!-- Download Section -->
-    <div id="whoWeAre" class="-mt-12 relative overflow-visible">
+    <div id="whoWeAre" class="-mt-2 xl:-mt-12 relative overflow-visible">
       <div class="border p-10 bg-[#272530] rounded-lg">
         <DownloadSection />
       </div>

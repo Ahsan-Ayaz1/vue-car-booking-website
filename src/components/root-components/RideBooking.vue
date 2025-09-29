@@ -7,17 +7,22 @@ import { Check, Circle, Dot } from "lucide-vue-next"
 import { Stepper, StepperDescription, StepperItem, StepperSeparator, StepperTitle, StepperTrigger } from "@/components/ui/stepper"
 import { ref } from "vue";
 
-const selectedHere = ref('')
+const selectedCarType = ref('')
+const selectedRideType = ref('')
 const steps = [
     { step: 1 },
     { step: 2 },
     { step: 3 },
 ]
-const selectCity = ref([
-  { id: "islamabad", name: "Islamabad" },
-  { id: "newDelhi", name: "New Delhi" },
-  { id: "washington", name: "Washington" },
-  { id: "london", name: "London" },
+const carType = ref([
+  { id: "alto", name: "Suzuki Alto" },
+  { id: "corolla", name: "Toyota Corolla" },
+  { id: "civic", name: "Honda Civic" },
+  { id: "fortuner", name: "Toyota Fortuner" },
+]);
+const rideType = ref([
+  { id: "oneway", name: "One-way" },
+  { id: "roundtrip", name: "Round Trip" },
 ]);
 
 </script>
@@ -62,15 +67,15 @@ const selectCity = ref([
             <div class="p-2 grid grid-cols-2 gap-2">
                 <div>
                     <Label for="car"> Car Type </Label>
-                    <BaseSelect id="car" v-model:selected-option="selectedHere" :options="selectCity" placeholder="Select Car Type" />
+                    <BaseSelect id="car" v-model:selected-option="selectedCarType" :options="carType" placeholder="Select Car Type" />
                 </div>
                 <div>
                     <Label for="ride"> Ride Type </Label>
-                    <BaseSelect id="ride" v-model:selected-option="selectedHere" :options="selectCity" placeholder="Select Ride Type" />
+                    <BaseSelect id="ride" v-model:selected-option="selectedRideType" :options="rideType" placeholder="Select Ride Type" />
                 </div>
             </div>
             <div class="w-full p-2">
-                <BaseInput id="pick-up-location" type="text" placeholder="Enter your Pich up Location" label="Pick up Location" />
+                <BaseInput id="pick-up-location" type="text" placeholder="Enter your Pick up Location" label="Pick up Location" />
             </div>
             <div class="w-full p-2">
                 <BaseInput id="pick-up-location" type="text" placeholder="Enter your Drop of Location" label="Drop of Location" />
