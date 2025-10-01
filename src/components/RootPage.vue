@@ -26,6 +26,44 @@ const handleScrollToSection = (sectionId) => {
       <Phone />
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:pr-0">
+      <div class="lg:hidden col-span-1 md:col-span-2 bg-[#FFC700]">
+        <RideBooking>
+          <template #navItem>
+              <div class="flex flex-wrap justify-center sm:justify-between items-center text-[#272530] font-bold text-sm bg-[#FFD231] px-4 sm:px-10 py-4 gap-3">
+                <p 
+                  class="whitespace-nowrap cursor-pointer"
+                  @click="handleScrollToSection('whoWeAre')"
+                  >
+                  WHO WE ARE
+                </p>
+                <p 
+                  class="whitespace-nowrap cursor-pointer"
+                  @click="handleScrollToSection('whyCallCab')"
+                  >
+                  WHY CALL CAB
+                </p>
+                <p 
+                  class="whitespace-nowrap cursor-pointer"
+                  @click="handleScrollToSection('aboutUs')"
+                  >
+                  ABOUT
+                </p>
+                <p 
+                  class="whitespace-nowrap cursor-pointer"
+                  @click="handleScrollToSection('contactUs')"
+                >
+                  CONTACT
+                </p>
+                <p 
+                  class="border rounded-full border-black px-3 py-2 whitespace-nowrap cursor-pointer"
+                  @click="handleScrollToSection('joinUs')"
+                >
+                  JOIN US NOW!
+                </p>
+            </div>
+          </template>
+        </RideBooking>
+      </div>
       <div class="col-span-1 md:col-span-2 px-6">
         <LogoSvg />
         <div class="md:pl-10 mt-6 md:mt-10">
@@ -58,7 +96,7 @@ const handleScrollToSection = (sectionId) => {
         </div>
       </div>
 
-      <div class="col-span-1 md:col-span-2 bg-[#FFC700]">
+      <div class="hidden lg:grid col-span-1 md:col-span-2 bg-[#FFC700]">
         <RideBooking>
           <template #navItem>
               <div class="flex flex-wrap justify-center sm:justify-between items-center text-[#272530] font-bold text-sm bg-[#FFD231] px-4 sm:px-10 py-4 gap-3">
@@ -99,7 +137,7 @@ const handleScrollToSection = (sectionId) => {
     </div>
 
     <!-- Download Section -->
-    <div id="whoWeAre" class="-mt-2 xl:-mt-12 relative overflow-visible">
+    <div id="whoWeAre" class="-mt-0 xl:-mt-12 relative overflow-visible">
       <div class="border p-10 bg-[#272530] rounded-lg">
         <DownloadSection />
       </div>
@@ -115,7 +153,7 @@ const handleScrollToSection = (sectionId) => {
     <div id="aboutUs" class="p-10 flex justify-center">
       <ServicesSection />
     </div>
-    <div class="flex justify-center">
+    <div class="flex justify-center mt-[55px]">
       <DownloadTheAppNow />
     </div>
     <!-- JoinUs Section -->

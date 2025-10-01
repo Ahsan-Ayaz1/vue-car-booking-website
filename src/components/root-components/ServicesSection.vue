@@ -62,7 +62,7 @@ const services = [
     </div>
 
     <!-- Button -->
-    <Button class="mt-10 rounded-full px-8 py-4 w-full sm:w-auto text-sm sm:text-base">
+    <Button class="mt-10 rounded-full px-8 py-6 w-full sm:w-auto text-sm sm:text-base">
       BOOK YOUR RIDE NOW !
     </Button>
   </div>

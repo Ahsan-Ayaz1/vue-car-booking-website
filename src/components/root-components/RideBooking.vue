@@ -81,7 +81,7 @@ const rideType = ref([
                 <BaseInput id="pick-up-location" type="text" placeholder="Enter your Drop of Location" label="Drop of Location" />
             </div>
         </div>
-        <div class="flex justify-end my-4 gap-2 px-10">
+        <div class="flex justify-center sm:justify-end my-4 gap-2 px-10">
             <Button class="rounded-full p-6 bg-[#FFDF6D] hover:bg-[#FFDF6D] text-black">
                 CALL FOR BOOKING
             </Button>

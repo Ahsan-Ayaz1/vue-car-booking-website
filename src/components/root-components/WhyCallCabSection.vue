@@ -34,9 +34,9 @@ const services = [
       <div class="col-span-1 lg:col-span-2">
         <div class="text-[#272530] px-4 lg:px-0">
           <h1 class="text-3xl sm:text-4xl lg:text-[50px] font-bold leading-tight">
-            Why Our Cabs Are the <span class="text-[#FFC700]">Right Choice.</span>
+            Why Our Cabs Are the <span class="text-[#FFC700] lg:mt-4 lg:inline-block">Right Choice.</span>
           </h1>
-          <p class="mt-2 text-base sm:text-lg">
+          <p class="mt-4 text-base sm:text-lg">
             With our cab service, you’ll never have to worry about delays or hidden costs. We prioritize your comfort and safety, offering well-maintained vehicles and trained drivers you can trust.
           </p>
         </div>

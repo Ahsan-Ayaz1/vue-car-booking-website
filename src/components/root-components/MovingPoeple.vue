@@ -23,7 +23,7 @@ import Button from '../ui/button/Button.vue';
       </div>
 
       <!-- TEXT CONTENT -->
-      <div class="mt-[100px]">
+      <div class="mt-[22px]">
         <h1 class="text-3xl md:text-4xl lg:text-[50px] font-bold leading-tight">
           Moving People, Creating Journey, Shaping
           <Button

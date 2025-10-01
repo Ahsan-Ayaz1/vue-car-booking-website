@@ -6,6 +6,8 @@ import Button from '../ui/button/Button.vue';
   <section
     class="grid grid-cols-1 lg:grid-cols-6 w-full bg-[#FFC700] rounded-lg p-6 sm:p-8 lg:h-[400px] relative"
   >
+
+    <img src="/src/assets/images/small-taxi.png" class="absolute top-[-119px] right-[100px] w-[420px] h-[130px] hidden lg:block" />
     <!-- Left Image Column -->
     <div class="lg:col-span-2 relative flex justify-center items-end h-[450px] lg:h-[450px]">
       <img
@@ -23,9 +25,9 @@ import Button from '../ui/button/Button.vue';
     <!-- Right Text Column -->
     <div class="lg:col-span-4 flex flex-col justify-center z-10 mt-6 lg:mt-0">
       <h1 class="text-3xl sm:text-4xl lg:text-[50px] font-bold text-white leading-tight">
-        Download <br /><span class="text-[#272530]">The App Now</span>
+        Download <br /><span class="text-[#272530] lg:mt-4 lg:inline-block">The App Now</span>
       </h1>
-      <p class="text-base sm:text-lg mt-2 text-[#272530]">
+      <p class="text-base sm:text-lg mt-4 text-[#272530]">
         With our cab service, you’ll never have to <br class="hidden sm:block" />
         worry about delays or hidden costs.
       </p>
@@ -33,7 +35,7 @@ import Button from '../ui/button/Button.vue';
       <!-- Buttons -->
       <div class="flex flex-col sm:flex-row gap-4 sm:gap-2 mt-6 flex-wrap">
         <Button
-          class="bg-[#272530] py-4 px-6 hover:bg-[#272530] text-white rounded-full w-full sm:w-auto"
+          class="bg-[#272530] py-7 px-6 hover:bg-[#272530] text-white rounded-full w-full sm:w-auto"
         >
           <div class="flex gap-2 items-center">
             <img src="/src/assets/images/ios.png" class="size-5" alt="" />
@@ -45,7 +47,7 @@ import Button from '../ui/button/Button.vue';
         </Button>
 
         <Button
-          class="bg-[#272530] py-4 px-6 hover:bg-[#272530] text-white rounded-full w-full sm:w-auto"
+          class="bg-[#272530] py-7 px-6 hover:bg-[#272530] text-white rounded-full w-full sm:w-auto"
         >
           <div class="flex gap-2 items-center">
             <img src="/src/assets/images/android.png" class="size-5" alt="" />
@@ -56,6 +58,9 @@ import Button from '../ui/button/Button.vue';
           </div>
         </Button>
       </div>
+    </div>
+    <div class="absolute -top-[50px] right-4 hidden lg:block">
+      <img src="/src/assets/images/download side pic.png" class=""/>
     </div>
   </section>
 </template>

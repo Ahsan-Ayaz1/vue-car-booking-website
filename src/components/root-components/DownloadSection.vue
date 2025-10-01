@@ -21,9 +21,9 @@ const mobileInformations = [
       <!-- Left Content -->
       <div class="col-span-1 md:col-span-2">
         <h1 class="text-3xl md:text-4xl lg:text-[50px] font-bold">
-          Download Our Mobile <br> <span class="text-[#FFC700]">Application Now !</span>
+          Download Our Mobile <br> <span class="text-[#FFC700] lg:mt-2 inline-block">Application Now !</span>
         </h1>
-        <p class="mt-2 text-base md:text-lg lg:text-xl">
+        <p class="mt-4 text-base md:text-lg lg:text-xl">
           Book rides in seconds, track your driver in real time, and enjoy safe, reliable travel anytime, anywhere.
         </p>
 
