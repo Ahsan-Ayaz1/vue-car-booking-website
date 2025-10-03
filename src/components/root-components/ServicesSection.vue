@@ -5,22 +5,22 @@ const services = [
   {
     title: 'Liver GPS Tracking',
     text: 'Neque porro quisquam est qui dolorem ipsum.',
-    image: '/src/assets/images/tracker.png'
+    image: '/src/assets/images/tracker-1.png'
   },
   {
     title: 'Multiple Payment',
     text: 'Neque porro quisquam est qui dolorem ipsum.',
-    image: '/src/assets/images/card.png'
+    image: '/src/assets/images/card-1.png'
   },
   {
     title: 'Ride For Everyone',
     text: 'Neque porro quisquam est qui dolorem ipsum.',
-    image: '/src/assets/images/people.png'
+    image: '/src/assets/images/people-1.png'
   },
   {
     title: 'Safety First',
     text: 'Neque porro quisquam est qui dolorem ipsum.',
-    image: '/src/assets/images/shield.png'
+    image: '/src/assets/images/shield-1.png'
   }
 ]
 </script>

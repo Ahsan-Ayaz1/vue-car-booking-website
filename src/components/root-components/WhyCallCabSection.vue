@@ -24,9 +24,9 @@ const services = [
       <!-- Left Image Section -->
       <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
         <div class="relative w-full max-w-[500px]">
-          <img src="/src/assets/images/customer.png" alt="" class="w-full h-auto" />
-          <img src="/src/assets/images/location-with-background.png" class="absolute left-0 top-16 w-1/3 sm:w-1/4" alt="">
-          <img src="/src/assets/images/car-with-background.png" class="absolute right-0 top-16 w-1/3 sm:w-1/4" alt="">
+          <img src="/src/assets/images/customer-1.png" alt="" class="w-full h-auto" />
+          <img src="/src/assets/images/location-with-background.png" class="absolute left-0 top-12 sm:top-16 w-1/4 sm:w-1/4" alt="">
+          <img src="/src/assets/images/car-with-background.png" class="absolute right-0 top-12 sm:top-16 w-1/4 sm:w-1/4" alt="">
         </div>
       </div>
 

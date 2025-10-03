@@ -82,10 +82,10 @@ const rideType = ref([
             </div>
         </div>
         <div class="flex justify-center sm:justify-end my-4 gap-2 px-10">
-            <Button class="rounded-full p-6 bg-[#FFDF6D] hover:bg-[#FFDF6D] text-black">
+            <Button class="rounded-full p-4 sm:p-6 bg-[#FFDF6D] hover:bg-[#FFDF6D] text-black">
                 CALL FOR BOOKING
             </Button>
-            <Button class="rounded-full p-6 bg-[#272530] hover:bg-[#272530]">
+            <Button class="rounded-full p-4 sm:p-6 bg-[#272530] hover:bg-[#272530]">
                 CONTINUE
             </Button>
         </div>

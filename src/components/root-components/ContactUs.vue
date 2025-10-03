@@ -111,7 +111,7 @@ function submit() {
       <!-- Right: Car visual -->
       <div class="relative hidden lg:block">
         <img
-          src="/src/assets/images/half-Taxi.png"
+          src="/src/assets/images/half-Taxi-1.png"
           alt="Yellow car"
           class="w-full object-cover"
         />

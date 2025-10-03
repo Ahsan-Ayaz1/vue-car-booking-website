@@ -138,7 +138,7 @@ const handleScrollToSection = (sectionId) => {
 
     <!-- Download Section -->
     <div id="whoWeAre" class="-mt-0 xl:-mt-12 relative overflow-visible">
-      <div class="border p-10 bg-[#272530] rounded-lg">
+      <div class="p-10 bg-[#272530] rounded-lg">
         <DownloadSection />
       </div>
     </div>
@@ -147,9 +147,9 @@ const handleScrollToSection = (sectionId) => {
       <WhyCallCabSection />
     </div>
     <!-- Moving Section -->
-     <div class=" flex justify-center">
+    <div class=" flex justify-center">
       <MovingPoeple/>
-     </div> 
+    </div> 
     <div id="aboutUs" class="p-10 flex justify-center">
       <ServicesSection />
     </div>
