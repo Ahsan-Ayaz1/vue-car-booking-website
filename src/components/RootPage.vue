@@ -66,7 +66,7 @@ const handleScrollToSection = (sectionId) => {
       </div>
       <div class="col-span-1 md:col-span-2 px-6">
         <LogoSvg />
-        <div class="md:pl-10 mt-6 md:mt-10">
+        <div data-aos="fade-up" class="md:pl-10 mt-6 md:mt-10">
           <h1 class="text-[#272530] font-semibold text-lg md:text-xl lg:text-2xl">The Most Reliable Ride Booking</h1>
           
           <span class="font-bold text-3xl md:text-5xl lg:text-[70px] leading-tight block">
@@ -96,8 +96,8 @@ const handleScrollToSection = (sectionId) => {
         </div>
       </div>
 
-      <div class="hidden lg:grid col-span-1 md:col-span-2 bg-[#FFC700]">
-        <RideBooking>
+      <div  class="hidden lg:grid col-span-1 md:col-span-2 bg-[#FFC700]">
+        <RideBooking data-aos="slide-down">
           <template #navItem>
               <div class="flex flex-wrap justify-center sm:justify-between items-center text-[#272530] font-bold text-sm bg-[#FFD231] px-4 sm:px-10 py-4 gap-3">
                 <p 
@@ -137,11 +137,12 @@ const handleScrollToSection = (sectionId) => {
     </div>
 
     <!-- Download Section -->
-    <div id="whoWeAre" class="-mt-0 xl:-mt-12 relative overflow-visible">
+    <div data-aos="zoom-in-up" id="whoWeAre" class="-mt-0 xl:-mt-12 relative overflow-visible">
       <div class="border p-10 bg-[#272530] rounded-lg">
         <DownloadSection />
       </div>
     </div>
+
     <!-- WhyCallCab Section -->
     <div id="whyCallCab" class="p-10">
       <WhyCallCabSection />

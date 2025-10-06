@@ -81,7 +81,7 @@ const year = computed(() => new Date().getFullYear())
         <!-- Social -->
         <div class="col-span-1">
           <h3 class="text-lg font-semibold text-white">Ijtimoiy Tarmoqlar</h3>
-          <div class="mt-4 flex items-center gap-5">
+          <div data-aos="flip-left" class="mt-4 flex items-center gap-5">
               <img src="/src/assets/images/twitter.png" alt="">
               <img src="/src/assets/images/instagram.png" alt="">
               <img src="/src/assets/images/facebook.png" alt="">
@@ -90,7 +90,7 @@ const year = computed(() => new Date().getFullYear())
       </div>
 
       <div  class="mt-10 border-t pt-6 text-center text-slate-400 border-[color:var(--tw-border-opacity)] border-[#3a3842]" />
-      <p class="mt-4 text-center text-slate-400">
+      <p data-aos="slide-right" class="mt-4 text-center text-slate-400">
         Copyright © {{ year }}. All rights reserved.
       </p>
     </div>

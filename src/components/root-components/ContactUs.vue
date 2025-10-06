@@ -27,7 +27,7 @@ function submit() {
 </script>
 <template>
   <section class="relative overflow-hidden rounded-b-[32px] py-12 sm:py-16">
-    <div class="text-center">
+    <div data-aos="fade-up-left" class="text-center">
          <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 text-center ">
           Do You Want To <span class="text-amber-500">Earn With Us</span>
         </h2>
@@ -109,7 +109,7 @@ function submit() {
       </div>
 
       <!-- Right: Car visual -->
-      <div class="relative hidden lg:block">
+      <div data-aos="fade-left" class="relative hidden lg:block">
         <img
           src="/src/assets/images/half-Taxi.png"
           alt="Yellow car"
