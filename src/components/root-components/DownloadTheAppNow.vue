@@ -7,7 +7,7 @@ import Button from '../ui/button/Button.vue';
     class="grid grid-cols-1 lg:grid-cols-6 w-full bg-[#FFC700] rounded-lg p-6 sm:p-8 lg:h-[400px] relative"
   >
 
-    <img src="/src/assets/images/small-taxi.png" class="absolute top-[-119px] right-[100px] w-[420px] h-[130px] hidden lg:block" />
+    <img  data-aos="slide-right" src="/src/assets/images/small-taxi.png" class="absolute top-[-119px] right-[100px] w-[420px] h-[130px] hidden lg:block" />
     <!-- Left Image Column -->
     <div class="lg:col-span-2 relative flex justify-center items-end h-[450px] lg:h-[450px]">
       <img
@@ -23,11 +23,11 @@ import Button from '../ui/button/Button.vue';
     </div>
 
     <!-- Right Text Column -->
-    <div class="lg:col-span-4 flex flex-col justify-center z-10 mt-6 lg:mt-0">
-      <h1 class="text-3xl sm:text-4xl lg:text-[50px] font-bold text-white leading-tight">
+    <div  class="lg:col-span-4 flex flex-col justify-center z-10 mt-6 lg:mt-0">
+      <h1 data-aos="fade-up-right" class="text-3xl sm:text-4xl lg:text-[50px] font-bold text-white leading-tight">
         Download <br /><span class="text-[#272530] lg:mt-4 lg:inline-block">The App Now</span>
       </h1>
-      <p class="text-base sm:text-lg mt-4 text-[#272530]">
+      <p data-aos="fade-up-right" class="text-base sm:text-lg mt-4 text-[#272530]">
         With our cab service, you’ll never have to <br class="hidden sm:block" />
         worry about delays or hidden costs.
       </p>

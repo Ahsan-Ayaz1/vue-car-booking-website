@@ -32,7 +32,7 @@ const services = [
 
       <!-- Right Text Section -->
       <div class="col-span-1 lg:col-span-2">
-        <div class="text-[#272530] px-4 lg:px-0">
+        <div data-aos="zoom-in-left" class="text-[#272530] px-4 lg:px-0">
           <h1 class="text-3xl sm:text-4xl lg:text-[50px] font-bold leading-tight">
             Why Our Cabs Are the <span class="text-[#FFC700] lg:mt-4 lg:inline-block">Right Choice.</span>
           </h1>

@@ -7,7 +7,7 @@ import Button from '../ui/button/Button.vue';
     <!-- LEFT -->
     <div class="w-full lg:w-3/5 p-6 md:p-10 relative">
       <!-- IMAGES -->
-      <div class="relative hidden lg:block lg:h-[1px]">
+      <div data-aos="fade-up" class="relative hidden lg:block lg:h-[1px]">
         <img
           src="/src/assets/images/road.png"
           alt="road"
@@ -23,7 +23,7 @@ import Button from '../ui/button/Button.vue';
       </div>
 
       <!-- TEXT CONTENT -->
-      <div class="mt-[22px]">
+      <div data-aos="slide-right" class="mt-[22px]">
         <h1 class="text-3xl md:text-4xl lg:text-[50px] font-bold leading-tight">
           Moving People, Creating Journey, Shaping
           <Button

@@ -28,19 +28,19 @@ const services = [
 <template>
   <div class="text-center px-4 md:px-10 lg:px-20">
     <!-- Heading -->
-    <h1 class="text-3xl sm:text-4xl lg:text-[50px] font-semibold leading-tight">
+    <h1 data-aos="zoom-in-up" class="text-3xl sm:text-4xl lg:text-[50px] font-semibold leading-tight">
       Features Designed For <span class="text-[#FFC700]">Smarter Travel</span>
     </h1>
 
     <!-- Description -->
-    <p class="text-sm sm:text-base text-[#706E79] mt-2">
+    <p data-aos="zoom-in-up" class="text-sm sm:text-base text-[#706E79] mt-2">
       With our cab service, you’ll never have to worry about delays or hidden costs.
       <br class="hidden sm:block" />
       We prioritize your comfort and safety, offering well-maintained vehicles and trained drivers you can trust.
     </p>
 
     <!-- Feature Cards -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 justify-items-center">
+    <div data-aos="fade-down" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 justify-items-center">
       <div
         v-for="(service, index) in services"
         :key="index"
@@ -62,7 +62,7 @@ const services = [
     </div>
 
     <!-- Button -->
-    <Button class="mt-10 rounded-full px-8 py-6 w-full sm:w-auto text-sm sm:text-base">
+    <Button data-aos="slide-right" class="mt-10 rounded-full px-8 py-6 w-full sm:w-auto text-sm sm:text-base">
       BOOK YOUR RIDE NOW !
     </Button>
   </div>
