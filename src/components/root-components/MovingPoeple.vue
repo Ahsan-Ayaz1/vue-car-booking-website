@@ -62,5 +62,12 @@ import Button from '../ui/button/Button.vue';
     </div>
 
     <!-- RIGHT -->
+      <!-- <div class="w-2/5 bg-[url('/src/assets/images/bg-phone.png')] bg-no-repeat bg-center bg-cover h-[200px] relative">
+        <div class="pr-10">
+            <img src="/src/assets/images/protector.png" alt="protector" class="absolute bottom-0 right-0" />
+
+            <img src="/src/assets/images/phone.png" alt="phone" class="relative right-10 bottom-40" />
+        </div>
+    </div> -->
   </div>
 </template>
